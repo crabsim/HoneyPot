@@ -75,4 +75,3 @@ Screenshots and logs taken by the keylogger
 
 
 </br></br>
- Licensed under the [MIT License](LICENSE).
