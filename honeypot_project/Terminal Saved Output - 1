@@ -1,0 +1,172 @@
+Last login: Wed Apr  7 13:18:14 on ttys000
+(base) pranavkhurana@Pranavs-MacBook-Pro ~ % cd desktop
+(base) pranavkhurana@Pranavs-MacBook-Pro desktop % ls
+Assignments Sem-6 
+Honeypot GitHub Code + Procedure PDF.pdf
+Internship
+Other
+Projects Sem-6 
+SURI Participation Packet - Pranav Khurana.pdf
+Study Material Sem-6
+VIT  sem 4 & 5
+Videos Sem-6 
+assessment 2.pkt
+honeypotDebugged1
+sw ref report honeybee.docx
+winter sem calendar.pdf
+~$BCE2513_Hardware_5.doc
+~$hirdflab2.docx
+~$ojects description.docx
+~$twork Quiz Key.docx
+(base) pranavkhurana@Pranavs-MacBook-Pro desktop % cd honeypotDebugged1
+(base) pranavkhurana@Pranavs-MacBook-Pro honeypotDebugged1 % ls
+CaptureImage.py		images			log.txt
+HashConversion.py	index.html		ss_keylogger
+LICENSE			index1.html		ss_webcam
+README.md		ip.html			venv
+data.json		keylogger.py
+(base) pranavkhurana@Pranavs-MacBook-Pro honeypotDebugged1 % pip install virtualenv
+Requirement already satisfied: virtualenv in /Users/pranavkhurana/opt/anaconda3/lib/python3.8/site-packages (20.4.3)
+Requirement already satisfied: filelock<4,>=3.0.0 in /Users/pranavkhurana/opt/anaconda3/lib/python3.8/site-packages (from virtualenv) (3.0.12)
+Requirement already satisfied: six<2,>=1.9.0 in /Users/pranavkhurana/opt/anaconda3/lib/python3.8/site-packages (from virtualenv) (1.15.0)
+Requirement already satisfied: appdirs<2,>=1.4.3 in /Users/pranavkhurana/opt/anaconda3/lib/python3.8/site-packages (from virtualenv) (1.4.4)
+Requirement already satisfied: distlib<1,>=0.3.1 in /Users/pranavkhurana/opt/anaconda3/lib/python3.8/site-packages (from virtualenv) (0.3.1)
+(base) pranavkhurana@Pranavs-MacBook-Pro honeypotDebugged1 % pip3 install virtualenv
+Requirement already satisfied: virtualenv in /Users/pranavkhurana/opt/anaconda3/lib/python3.8/site-packages (20.4.3)
+Requirement already satisfied: filelock<4,>=3.0.0 in /Users/pranavkhurana/opt/anaconda3/lib/python3.8/site-packages (from virtualenv) (3.0.12)
+Requirement already satisfied: distlib<1,>=0.3.1 in /Users/pranavkhurana/opt/anaconda3/lib/python3.8/site-packages (from virtualenv) (0.3.1)
+Requirement already satisfied: six<2,>=1.9.0 in /Users/pranavkhurana/opt/anaconda3/lib/python3.8/site-packages (from virtualenv) (1.15.0)
+Requirement already satisfied: appdirs<2,>=1.4.3 in /Users/pranavkhurana/opt/anaconda3/lib/python3.8/site-packages (from virtualenv) (1.4.4)
+(base) pranavkhurana@Pranavs-MacBook-Pro honeypotDebugged1 % 
+(base) pranavkhurana@Pranavs-MacBook-Pro honeypotDebugged1 % 
+(base) pranavkhurana@Pranavs-MacBook-Pro honeypotDebugged1 % top
+
+zsh: suspended  top
+(base) pranavkhurana@Pranavs-MacBook-Pro honeypotDebugged1 % virtualenv
+usage: virtualenv [--version] [--with-traceback] [-v | -q] [--read-only-app-data] [--app-data APP_DATA] [--reset-app-data] [--upgrade-embed-wheels] [--discovery {builtin}] [-p py] [--try-first-with py_exe]
+                  [--creator {builtin,cpython3-posix,venv}] [--seeder {app-data,pip}] [--no-seed] [--activators comma_sep_list] [--clear] [--no-vcs-ignore] [--system-site-packages] [--symlinks | --copies] [--no-download | --download]
+                  [--extra-search-dir d [d ...]] [--pip version] [--setuptools version] [--wheel version] [--no-pip] [--no-setuptools] [--no-wheel] [--no-periodic-update] [--symlink-app-data] [--prompt prompt] [-h]
+                  dest
+virtualenv: error: the following arguments are required: dest
+SystemExit: 2
+(base) pranavkhurana@Pranavs-MacBook-Pro honeypotDebugged1 % source venv/bin/activate
+(venv) (base) pranavkhurana@Pranavs-MacBook-Pro honeypotDebugged1 %  pip3 install flask flask-sqlalchemy
+Collecting flask
+  Downloading Flask-1.1.2-py2.py3-none-any.whl (94 kB)
+     |████████████████████████████████| 94 kB 2.3 MB/s 
+Collecting flask-sqlalchemy
+  Downloading Flask_SQLAlchemy-2.5.1-py2.py3-none-any.whl (17 kB)
+Collecting Jinja2>=2.10.1
+  Downloading Jinja2-2.11.3-py2.py3-none-any.whl (125 kB)
+     |████████████████████████████████| 125 kB 6.1 MB/s 
+Collecting click>=5.1
+  Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+     |████████████████████████████████| 82 kB 1.4 MB/s 
+Collecting itsdangerous>=0.24
+  Downloading itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting Werkzeug>=0.15
+  Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+     |████████████████████████████████| 298 kB 6.3 MB/s 
+Collecting MarkupSafe>=0.23
+  Downloading MarkupSafe-1.1.1-cp38-cp38-macosx_10_9_x86_64.whl (16 kB)
+Collecting SQLAlchemy>=0.8.0
+  Downloading SQLAlchemy-1.4.6-cp38-cp38-macosx_10_14_x86_64.whl (1.5 MB)
+     |████████████████████████████████| 1.5 MB 5.1 MB/s 
+Collecting greenlet!=0.4.17
+  Downloading greenlet-1.0.0-cp38-cp38-macosx_10_14_x86_64.whl (86 kB)
+     |████████████████████████████████| 86 kB 2.8 MB/s 
+Installing collected packages: MarkupSafe, Werkzeug, Jinja2, itsdangerous, greenlet, click, SQLAlchemy, flask, flask-sqlalchemy
+Successfully installed Jinja2-2.11.3 MarkupSafe-1.1.1 SQLAlchemy-1.4.6 Werkzeug-1.0.1 click-7.1.2 flask-1.1.2 flask-sqlalchemy-2.5.1 greenlet-1.0.0 itsdangerous-1.1.0
+(venv) (base) pranavkhurana@Pranavs-MacBook-Pro honeypotDebugged1 % 
+(venv) (base) pranavkhurana@Pranavs-MacBook-Pro honeypotDebugged1 % ls                                  
+CaptureImage.py		README.md		index.html		keylogger.py		ss_webcam
+HashConversion.py	data.json		index1.html		log.txt			venv
+LICENSE			images			ip.html			ss_keylogger
+(venv) (base) pranavkhurana@Pranavs-MacBook-Pro honeypotDebugged1 % python CaptureImage.py
+['.DS_Store', 'Intruder.jpg']
+(venv) (base) pranavkhurana@Pranavs-MacBook-Pro honeypotDebugged1 % python CaptureImage.py
+Traceback (most recent call last):
+  File "CaptureImage.py", line 1, in <module>
+    CODE-1
+NameError: name 'CODE' is not defined
+(venv) (base) pranavkhurana@Pranavs-MacBook-Pro honeypotDebugged1 % python CaptureImage.py
+True
+[[[ 0  6  2]
+  [ 0  5  1]
+  [ 0  6  2]
+  ...
+  [ 1  4 10]
+  [ 1  4 10]
+  [ 1  4 10]]
+
+ [[ 0  5  1]
+  [ 0  5  1]
+  [ 0  5  1]
+  ...
+  [ 1  4 10]
+  [ 1  4 10]
+  [ 1  4 10]]
+
+ [[ 0  5  1]
+  [ 0  5  1]
+  [ 0  5  1]
+  ...
+  [ 2  4 10]
+  [ 2  4 10]
+  [ 2  4 10]]
+
+ ...
+
+ [[16 23 29]
+  [17 23 29]
+  [18 23 29]
+  ...
+  [ 5  7 21]
+  [ 5  7 21]
+  [ 5  7 21]]
+
+ [[16 23 29]
+  [17 23 29]
+  [18 23 29]
+  ...
+  [ 6  9 22]
+  [ 6  9 22]
+  [ 6  9 22]]
+
+ [[16 23 29]
+  [17 23 29]
+  [18 23 29]
+  ...
+  [ 6  9 22]
+  [ 6  9 22]
+  [ 6  9 22]]]
+['.DS_Store']
+(venv) (base) pranavkhurana@Pranavs-MacBook-Pro honeypotDebugged1 % python CaptureImage.py
+opencv_frame_0.png written!
+opencv_frame_1.png written!
+Escape hit, closing...
+(venv) (base) pranavkhurana@Pranavs-MacBook-Pro honeypotDebugged1 % python CaptureImage.py
+Escape hit, closing...
+(venv) (base) pranavkhurana@Pranavs-MacBook-Pro honeypotDebugged1 % python CaptureImage.py
+opencv_frame_0.png written!
+ opencv_frame_1.png written!
+opencv_frame_2.png written!
+opencv_frame_3.png written!
+opencv_frame_4.png written!
+Escape hit, closing...
+(venv) (base) pranavkhurana@Pranavs-MacBook-Pro honeypotDebugged1 %  python hashConversion.py
+Enter usernamepranav
+Enter website namevtop
+Enter 1 if you want special character or else enter 00
+(venv) (base) pranavkhurana@Pranavs-MacBook-Pro honeypotDebugged1 %  python hashConversion.py
+Enter usernameadmin
+Enter website namevtop
+Enter 1 if you want special character or else enter 00
+(venv) (base) pranavkhurana@Pranavs-MacBook-Pro honeypotDebugged1 %  python hashConversion.py
+Enter usernameadmin
+Enter website namevtop
+Enter 1 if you want special character or else enter 01
+(venv) (base) pranavkhurana@Pranavs-MacBook-Pro honeypotDebugged1 % python keylogger.py      
+^Z
+zsh: suspended  python keylogger.py
+(venv) (base) pranavkhurana@Pranavs-MacBook-Pro honeypotDebugged1 % 
